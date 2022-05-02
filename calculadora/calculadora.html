@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- fundoPagina -->
+  <header class="cabecalho">
+    <h1>
+      Dev - Ygor Evaldt
+    </h1>
+  </header>
+  <!-- calculadora -->
+  <main class="calculadora">
+    <h1>Calculadora</h1>
+    <p id="resultado"></p>
+    <table class="tabela">
+      <tr>
+        <td><button onclick="limpaResultado()">c</button></td>
+        <td><button onclick="apagar()">&#60</button>
+        </td>
+        <td><button onclick="inserir('/')">/</button></td>
+        <td><button onclick="inserir('*')">x</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="inserir('7')">7</button></td>
+        <td><button onclick="inserir('8')">8</button></td>
+        <td><button onclick="inserir('9')">9</button></td>
+        <td><button onclick="inserir('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="inserir('4')">4</button></td>
+        <td><button onclick="inserir('5')">5</button></td>
+        <td><button onclick="inserir('6')">6</button></td>
+        <td><button onclick="inserir('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="inserir('1')">1</button></td>
+        <td><button onclick="inserir('2')">2</button></td>
+        <td><button onclick="inserir('3')">3</button></td>
+        <td rowspan="2"><button class="botao-igual" onclick="calcular()">=</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button class="botao-zero" onclick="inserir('0')">0</button></td>
+        <td><button onclick="inserir('.')">.</button></td>
+      </tr>
+    </table>
+  </main>
+</body>
+<script src="assets/script/script.js"></script>
+
+</html>
