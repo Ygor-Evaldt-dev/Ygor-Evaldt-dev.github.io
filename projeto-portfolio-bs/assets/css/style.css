@@ -8,6 +8,13 @@ a {
 .cabecalho {
   background-color: #f7f7f7;
 }
+.nome {
+  color: #6d6d6d;
+}
+.nome:hover {
+  color: #525252;
+}
+
 .nav-item a {
   color: #8b8b8b;
 }
