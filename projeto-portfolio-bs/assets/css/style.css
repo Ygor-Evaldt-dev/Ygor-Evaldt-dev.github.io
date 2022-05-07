@@ -19,6 +19,12 @@ a {
   color: #8b8b8b;
 }
 
+@media (max-width: 800px) {
+  .cabecalho {
+    padding: 1rem 0rem !important;
+  }
+}
+
 /* quem sou eu*/
 .conteudo-perfil {
   background-color: #00dbbe;
