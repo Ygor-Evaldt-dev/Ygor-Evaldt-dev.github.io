@@ -1,6 +1,6 @@
-#Este repositório guarda todos os meus projetos web
+# Este repositório guarda todos os meus projetos web
 
-##Como acessar os projetos no seu navegador:
+## Como acessar os projetos no seu navegador:
 Acesse o projeto que você quer ver e copie o caminho do projeto <br>
 Após isso cole o caminho do projeto em uma nova aba do seu navegador. 
 
