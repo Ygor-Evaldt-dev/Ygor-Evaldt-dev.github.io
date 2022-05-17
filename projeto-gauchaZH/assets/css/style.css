@@ -115,3 +115,9 @@ button:hover {
 button a:hover {
   color: #000000 !important;
 }
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    padding: 2rem;
+  }
+}
