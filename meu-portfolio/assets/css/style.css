@@ -53,7 +53,8 @@ h2 {
   .header-navegacao {
     padding: 1rem 0.5rem !important;
   }
-  .sobre {
+  .sobre, .formulario {
     padding: 1rem !important;
   }
+
 }
