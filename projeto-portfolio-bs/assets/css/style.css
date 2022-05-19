@@ -1,0 +1,78 @@
+a {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+
+/* cabeçalho */
+.cabecalho {
+  background-color: #f7f7f7;
+}
+.nome {
+  color: #6d6d6d;
+}
+.nome:hover {
+  color: #525252;
+}
+
+.nav-item a {
+  color: #8b8b8b;
+}
+
+@media (max-width: 800px) {
+  .cabecalho {
+    padding: 1rem 0rem !important;
+  }
+}
+
+/* quem sou eu*/
+.conteudo-perfil {
+  background-color: #00dbbe;
+}
+.conteudo-perfil img {
+  max-width: 14rem;
+}
+
+/* como me encontrar */
+.find-me {
+  background-color:#3f3f3fbe;
+  color: #ffffff
+}
+.find-me a i {
+  box-shadow: 0rem 0rem 0.2rem #838383;
+  padding: 0.5rem 1rem;
+}
+
+/* principais trabalhos */
+.software {
+  background-image: url("../img/desenvolvedor-softare.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 14rem;
+  box-shadow: 0rem 0rem 0.4rem #525252;
+}
+.consultering {
+  background-image: url("../img/consultoria.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 16rem;
+  box-shadow: 0rem 0rem 0.4rem #525252;
+}
+.web{
+  background-image: url("../img/web.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 18rem;
+  box-shadow: 0rem 0rem 0.4rem #525252;
+}
+
+/* rodapé */
+.rodape {
+  background-color: #525252;
+}

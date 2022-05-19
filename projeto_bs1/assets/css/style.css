@@ -1,0 +1,12 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+.header-paragraph {
+  font-size: 1.2rem;
+}
+.conteudo-principal {
+  height: 18rem !important;
+}
+nav {
+  height: 18rem;
+}

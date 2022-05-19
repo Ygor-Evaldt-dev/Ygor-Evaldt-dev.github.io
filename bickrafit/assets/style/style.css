@@ -1,0 +1,213 @@
+/* ESTILOS BASE */
+* {
+  margin: 0rem;
+  padding: 0rem;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: grid;
+  gap: 4rem;
+  justify-items: center;
+  margin-top: 4rem;
+  background-color: #f3f3f3;
+}
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0rem;
+  box-shadow: 0rem 0rem 0.5rem #c2c2c238;
+}
+footer p {
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+img {
+  max-width: 100%;
+}
+a {
+  display: block;
+}
+
+/* MENU NAVEGAÇÃO */
+.cabeçalho {
+  display: grid;
+  justify-items: center;
+  gap: 4rem;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+.menu a {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  border: transparent solid 0.2rem;
+  box-shadow: 0rem 0rem 0.5rem #c2c2c238;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* CONTEUDO PRINCIPAL */
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+  max-width: 62rem;
+  box-shadow: 0.2rem -0.2rem 0.5rem #c2c2c238;
+}
+.conteudo-descrição {
+  display: grid;
+  gap: 2rem;
+  align-content: center;
+  justify-items: right;
+  text-align: right;
+  padding: 2rem;
+  font-size: 1.3rem;
+  position: relative;
+}
+.conteudo-descrição::before {
+  content: "";
+  width: 4rem;
+  height: 0.3rem;
+  background-color: #ff0000;
+  position: absolute;
+  top: 1.2rem;
+  right: -2rem;
+}
+/* Detalhe conteudo princial */
+.conteudo-descrição a {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0.8rem 1.3rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+}
+
+/* ARTE MARCA DO SITE*/
+.conteudo-arte {
+  display: grid;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+.conteudo-arte h2 {
+  color: #c2c2c2;
+  background-image: url("../img/onda.svg");
+  background-size: contain;
+  background-position: center;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+/* CARACTERÍSTICAS DO PRODUTO */
+.vantagens {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 0.5rem;
+  border-left: transparent solid 0.2rem;
+  padding: 0.5rem 0.8rem;
+  border: transparent solid 0.2rem;
+  font-size: 1.2rem;
+}
+.vantagens-item p {
+  grid-column: 1/3;
+}
+
+/* EVENTOS DO MOUSE */
+/* Evento: menu navegação */
+.menu li a:hover {
+  border: #ff0000 solid 0.19rem;
+}
+/* Evento: conteudo-principal */
+.conteudo-descrição a:hover {
+  background-color: #ad0000;
+}
+/* Evento: caracteristicas do produto*/
+.vantagens-item:hover {
+  border-left: #ff0000 solid 0.2rem;
+}
+.vantagens-item:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+/* RESPONSIVO */
+/* Responsivo: imagem-bicicleta */
+.conteudo-bicicleta {
+  object-fit: cover;
+  height: 100%;
+  object-position: top center;
+}
+@media (max-width: 42rem) {
+  body {
+    gap: 1rem;
+  }
+  /* responsivo: conteudo-principal */
+  .conteudo {
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
+  .conteudo-descrição {
+    justify-items: center;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .conteudo-descrição::before {
+    content: none;
+  }
+  /* responsivo: arte-marca-do-site */
+  .conteudo-arte {
+    justify-items: center;
+    padding: 0rem 0.5rem;
+  }
+  .conteudo-arte h2 {
+    font-size: 2.4rem;
+    width: 100%;
+    padding: 2rem 0rem;
+    text-align: center;
+  }
+  /* responsivo: caracteristicas-do-produto */
+  .vantagens {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  .vantagens-item {
+    font-size: 1.3rem;
+  }
+  footer {
+    padding: 1rem 0rem;
+    margin-top: 2rem;
+  }
+}
+/* RESPONSIVO 2 */
+@media (max-width: 60rem) {
+  /* responsivo 2: arte-marca-do-site */
+  .conteudo-arte {
+    grid-column: 1/-1;
+  }
+  .conteudo-arte h2 {
+    text-align: center;
+  }
+  /* Responsivo 2: caracteristicas-do-produto */
+  .vantagens {
+    grid-column: 1/-1;
+  }
+}
