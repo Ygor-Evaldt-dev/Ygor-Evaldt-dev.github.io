@@ -49,12 +49,28 @@ h2 {
   color: #ffffff !important;
 }
 
+/* Rodapé */
+.footer h4 {
+  color: blueviolet !important;
+}
+
+.link-footer {
+  color: #ffffff !important;
+}
+
+.link-footer:hover {
+  color: blueviolet !important;
+}
+
 @media only screen and (max-width: 500px) {
   .header-navegacao {
     padding: 1rem 0.5rem !important;
   }
   .sobre, .formulario {
     padding: 1rem !important;
+  }
+  .footer-section {
+    flex-direction: column;
   }
 
 }
