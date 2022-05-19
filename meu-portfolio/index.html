@@ -44,11 +44,11 @@
             <li class="nav-item">
               <a class="nav-link text-white hover" href="#sobre">Sobre</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white hover" href="#contato">Contatos</a>
-            </li>
           </ul>
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white hover" href="#contato">Deixe seu contato</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#"><i class="bi bi-whatsapp text-white hover"></i></a>
             </li>
@@ -80,7 +80,7 @@
       <p class="pb-4">
         Estou disponível para ser contatado através das seguintes plataformas
       </p>
-      <ul id="contato" class="nav d-flex justify-content-center pb-4">
+      <ul class="nav d-flex justify-content-center pb-4">
         <li class="nav-item">
           <a class="nav-link text-dark hover2" href="https://api.whatsapp.com/send/?phone=5551983313468&text&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
         </li>
@@ -93,11 +93,11 @@
       </ul>
     </section>
     <!-- portfólio -->
-    <main class="container-fluid bg-secondary pt-5 pb-5">
+    <main class="container-fluid bg-secondary pt-5 pb-5" id="portfolio">
       <h2 class="text-capitalize text-center text-white pb-4">
         Portfólio
       </h2>
-      <div class="portfolio row" id="portfolio">
+      <div class="portfolio row">
         <section class="portfolio-item col-md-4 m-0">
           <a href="https://ygor-evaldt-dev.github.io/portfolio-lobo/" target="_blank">
             <img class="img-fluid rounded" src="assets/img/port-lobo.jpeg" alt="">
@@ -116,7 +116,7 @@
       </div>
     </main>
     <!-- sobre -->
-    <section class="container-fluid p-5">
+    <section class="container-fluid p-5" id="sobre">
       <h2 class="text-capitalize text-center pb-4">
         Sobre
       </h2>
@@ -144,7 +144,7 @@
     </section>
   </section>
   <!-- Formulário -->
-  <section class="container bg-secondary rounded p-5 mb-5">
+  <section class="container bg-secondary rounded p-5 mb-5" id="contato">
     <h2 class="text-white text-center">
       Deixe seu contato
     </h2>
@@ -165,10 +165,13 @@
     </form>
   </section>
   <!-- rodapé -->
-  <footer class="container-fluid text-center bg-dark m-0">
-    <p class="text-white p-4 m-0">
-      Copyright © Ygor Evaldt 2022
-    </p>
+  <footer class="container-fluid bg-dark m-0">
+    <section class="d-flex justify-content-center align-items-center">
+      <p class="text-white p-4 m-0">
+        Copyright © Ygor Evaldt 2022
+      </p>
+      <a href="#inicio"><i class="bi bi-arrow-up-square-fill text-white h3 hover" id="inicio"></i></a>
+    </section>
   </footer>
 
   <script src=" assets/script/script.js">
