@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -147,7 +151,7 @@
     <h2 class="text-white text-center">
       Deixe seu contato
     </h2>
-    <form action="email.php" method="GET" class="p-2">
+    <form action="email.php" method="post" class="p-2">
       <div class=" mb-3 mt-3">
         <label for="email" class="form-label text-white">Nome:</label>
         <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome">
