@@ -5,7 +5,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-
 /* Cabeçalho */
 .header-logo {
   font-size: 1.5rem;
@@ -23,7 +22,6 @@ h2 {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
 
 /* portfolio */
 .portfolio {
@@ -66,11 +64,29 @@ h2 {
   .header-navegacao {
     padding: 1rem 0.5rem !important;
   }
-  .sobre, .formulario {
+  .sobre,
+  .formulario {
     padding: 1rem !important;
   }
   .footer-section {
     flex-direction: column;
   }
+}
 
+/* Pagina email.php */
+.corpo-email-php {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-items: center !important;
+  align-items: center !important;
+  background-color: #8d8d8d;
+  color: #ffffff;
+}
+.clique-aqui {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.clique-aqui:hover {
+  color: #000000 !important;
 }

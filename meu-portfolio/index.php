@@ -203,7 +203,6 @@
       <a href="#inicio"><i class="bi bi-arrow-up-square-fill text-white h3 hover" id="inicio"></i></a>
     </section>
   </footer>
-
   <script src=" assets/script/script.js">
   </script>
 </body>
