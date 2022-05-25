@@ -76,9 +76,9 @@
       $mail->isHTML(true);
       $mail->Subject = 'Novo contato via formulario portfolio';
 
-      $mail->Body    = "<b>Nome:</b> {$_GET['nome']}<br><br><b>Telefone:</b> {$_GET['telefone']}<br><br><b>E-mail:<b></b> {$_GET['email']}<br>";
+      $mail->Body    = "<b>Nome:</b> {$_POST['nome']}<br><br><b>Telefone:</b> {$_POST['telefone']}<br><br><b>E-mail:<b></b> {$_POST['email']}<br>";
 
-      $mail->AltBody = "Nome: {$_GET['nome']}" . PHP_EOL . "Telefone: {$_GET['telefone']}" . PHP_EOL . "E-mail: {$_GET['email']}" . PHP_EOL;
+      $mail->AltBody = "Nome: {$_POST['nome']}" . PHP_EOL . "Telefone: {$_POST['telefone']}" . PHP_EOL . "E-mail: {$_POST['email']}" . PHP_EOL;
 
       $mail->send();
       echo '<h3 class="pt-4 text-center">Seus dados foram enviados com sucesso<h3><br>';
