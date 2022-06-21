@@ -1,0 +1,23 @@
+/* header */
+@media (max-width: 500px) {
+  .cabecalho {
+    padding: 2rem 1rem !important;
+  }
+  #baseFinal {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+/* resultado */
+#resultado {
+  margin-top: 2.5rem !important;
+}
+
+/* footer */
+footer {
+  bottom: 0;
+  position: fixed;
+}
+a:hover {
+  color: rgb(228, 200, 255) !important;
+}
