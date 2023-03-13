@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga Dos Campeões da UEFA</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- cabeçalho -->
+  <section class="container-cabeçalho">
+    <section>
+      <h1>
+        Liga dos Campeões da UEFA
+      </h1>
+    </section>
+    <!-- navegaçao -->
+    <nav>
+      <ul class="cabeçalho-navegaçao">
+        <li>
+          <a class="navegaçao-item" href="#partidas">Partidas</a>
+        </li>
+        <li>
+          <a class="navegaçao-item" href="#">Notícias</a>
+        </li>
+        <li>
+          <a class="navegaçao-item" href="#classificaçao">Classificação</a>
+        </li>
+        <li>
+          <a class="navegaçao-item" href="#">Estatísticas</a>
+        </li>
+        <li>
+          <a class="navegaçao-item" href="#jogadores">Jogadores</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <!-- tabela -->
+  <main>
+    <section>
+      <h3>Grupo A</h3>
+    </section>
+    <!-- tabela A -->
+    <div class="responsivo-tabela">
+      <table id="classificaçao" class="tabelaA">
+        <tr>
+          <th class="clube">Clube</th>
+          <th>Pts</th>
+          <th>PJ</th>
+          <th>VIT</th>
+          <th>E</th>
+          <th>DER</th>
+          <th>GP</th>
+          <th>GC</th>
+          <th>SG</th>
+          <th class="partidas">Últimas cinco</th>
+        </tr>
+        <!-- psg -->
+        <tr>
+          <td id="detalheAzul" class="time">
+            <h3>1</h3>
+            <img src="./assets/img/psg.png" alt="">
+            <h3>PSG</h3>
+          </td>
+          <td>16</td>
+          <td>6</td>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td>17</td>
+          <td>2</td>
+          <td>15</td>
+          <td class="ultimas-cinco">
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="cinza">-</div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+          </td>
+        </tr>
+        <!-- realMadrid -->
+        <tr>
+          <td id="detalheAzul" class="time">
+            <h3>2</h3>
+            <img src="./assets/img/real.png" alt="">
+            <h3>Real Madrid</h3>
+          </td>
+          <td>11</td>
+          <td>6</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>14</td>
+          <td>8</td>
+          <td>6</td>
+          <td class="ultimas-cinco">
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="cinza">-</div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="cinza">-</div>
+          </td>
+        </tr>
+        <!-- clubeBrugge -->
+        <tr>
+          <td id="detalheLaranja" class="time">
+            <h3>3</h3>
+            <img src="./assets/img/brugge.png" alt="">
+            <h3>Clube Brugge</h3>
+          </td>
+          <td>3</td>
+          <td>6</td>
+          <td>0</td>
+          <td>3</td>
+          <td>3</td>
+          <td>4</td>
+          <td>12</td>
+          <td>-8</td>
+          <td class="ultimas-cinco">
+            <div class="vermelho">x</div>
+            <div class="cinza">-</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="cinza">-</div>
+          </td>
+        </tr>
+        <!-- galatasaray -->
+        <tr>
+          <td class="time">
+            <h3>4</h3>
+            <img src="./assets/img/galata.png" alt="">
+            <h3>Galatasaray</h3>
+          </td>
+          <td>2</td>
+          <td>6</td>
+          <td>0</td>
+          <td>2</td>
+          <td>4</td>
+          <td>1</td>
+          <td>14</td>
+          <td>-13</td>
+          <td class="ultimas-cinco">
+            <div class="vermelho">x</div>
+            <div class="cinza">-</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <section>
+      <h3 class="h3">Grupo B</h3>
+    </section>
+    <!-- tabela B -->
+    <div class="responsivo-tabela">
+      <table id="classificaçao" class="tabelaB">
+        <tr>
+          <th class="clube">Clube</th>
+          <th>Pts</th>
+          <th>PJ</th>
+          <th>VIT</th>
+          <th>E</th>
+          <th>DER</th>
+          <th>GP</th>
+          <th>GC</th>
+          <th>SG</th>
+          <th class="partidas">Últimas cinco</th>
+        </tr>
+        <!-- bayern -->
+        <tr>
+          <td id="detalheAzul" class="time">
+            <h3>1</h3>
+            <img src="./assets/img/bayern.png" alt="">
+            <h3>Bayern</h3>
+          </td>
+          <td>18</td>
+          <td>6</td>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>24</td>
+          <td>5</td>
+          <td>19</td>
+          <td class="ultimas-cinco">
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+          </td>
+        </tr>
+        <!-- totenham -->
+        <tr>
+          <td id="detalheAzul" class="time">
+            <h3>2</h3>
+            <img src="./assets/img/totenham.png" alt="">
+            <h3>Tottenham</h3>
+          </td>
+          <td>10</td>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>18</td>
+          <td>14</td>
+          <td>4</td>
+          <td class="ultimas-cinco">
+            <div class="vermelho">x</div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="vermelho">x</div>
+          </td>
+        </tr>
+        <!-- olympiacos -->
+        <tr>
+          <td id="detalheLaranja" class="time">
+            <h3>3</h3>
+            <img src="./assets/img/Olympiacos.png" alt="">
+            <h3>Olympiacos</h3>
+          </td>
+          <td>4</td>
+          <td>6</td>
+          <td>1</td>
+          <td>1</td>
+          <td>4</td>
+          <td>8</td>
+          <td>14</td>
+          <td>-6</td>
+          <td class="ultimas-cinco">
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+          </td>
+        </tr>
+        <!-- estrelaVermelha -->
+        <tr>
+          <td class="time">
+            <h3>4</h3>
+            <img src="./assets/img/estrela-vermelha.png" alt="">
+            <h3>Estrela Vermelha</h3>
+          </td>
+          <td>2</td>
+          <td>6</td>
+          <td>0</td>
+          <td>2</td>
+          <td>4</td>
+          <td>1</td>
+          <td>14</td>
+          <td>-13</td>
+          <td class="ultimas-cinco">
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="vermelho">x</div>
+            <div class="verde">
+              <img class="ultimas-cinco-vitoria" src="./assets/img/verif-branca.png" alt="Vitória">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <section>
+      <h3 class="h3">Gols</h3>
+    </section>
+    <!-- tabela Gols -->
+    <div class="responsivo-tabela">
+      <table id="jogadores" class="tabela-gols">
+        <tr>
+          <th class="jogador">Jogador</th>
+          <th class="gols">Gols</th>
+        </tr>
+        <!-- robertlewandowski -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>1</h3>
+            <h3>Robert Lewandowski</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/bayern.png">
+              <h4>Bayern</h4>
+            </section>
+          </td>
+          <td class="gols">
+            11
+          </td>
+        </tr>
+        <!-- ErlingBrautHaaland -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>2</h3>
+            <h3>Erling Braut Haaland</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/borrusia.png">
+              <h4>Borussia</h4>
+            </section>
+          </td>
+          <td class="gols">
+            10
+          </td>
+        </tr>
+        <!-- mirslavOrsic -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>3</h3>
+            <h3>Mislav Orsic</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/dinamo.png">
+              <h4>Dinamo</h4>
+            </section>
+          </td>
+          <td class="gols">
+            7
+          </td>
+        </tr>
+        <!-- billelOmrani -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>4</h3>
+            <h3>Billel Omrani</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/CFRcluj.png">
+              <h4>CFR Cluj</h4>
+            </section>
+          </td>
+          <td class="gols">
+            6
+          </td>
+        </tr>
+        <!-- driesMertens -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>4</h3>
+            <h3>Dries Mertens</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/napoli.png">
+              <h4>Napoli</h4>
+            </section>
+          </td>
+          <td class="gols">
+            6
+          </td>
+        </tr>
+        <!-- harryKane -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>4</h3>
+            <h3>Harry Kane</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/totenham.png">
+              <h4>Tottenham</h4>
+            </section>
+          </td>
+          <td class="gols">
+            6
+          </td>
+        </tr>
+        <!-- serge gnabry -->
+        <tr class="jogador-gols">
+          <td class="jogador">
+            <h3>4</h3>
+            <h3>Serge Gnabry</h3>
+            <section class="jogador-time">
+              <img class="img" src="assets/img/bayern.png">
+              <h4>Bayern</h4>
+            </section>
+          </td>
+          <td class="gols">
+            6
+          </td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <section class="oitavas-h3">
+    <h3>
+      Oitavas de final - Jogo 2 de 2
+    </h3>
+  </section>
+  <!-- Oitavas de final -->
+  <section class="container-oitavas" id="partidas">
+    <!-- RB Leipzig x Tottenham -->
+    <section class="oitavas-section">
+      <table>
+        <tr>
+          <th class="totalJogo">
+            Total com jogo de ida: 4 - 0
+          </th>
+        </tr>
+        <tr class="oitavas-tr">
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/RBLeipzig.png" alt="">
+            <h3>RB Leipzig</h3>
+          </td>
+          <td>
+            <h3>3⬅️</h3>
+          </td>
+          <td class="fim">
+            <h3>FIM </h3>
+            <P>Ter.. 10/03</P>
+          </td>
+        </tr>
+        <tr>
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/totenham.png" alt="">
+            <h3>Tottenham</h3>
+          </td>
+          <td>
+            <h3>0</h3>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+    <!-- Valencia x Atalanta-->
+    <section class="oitavas-section">
+      <table>
+        <tr>
+          <th class="totalJogo">
+            Total com jogo de ida: 4 - 8
+          </th>
+        </tr>
+        <tr class="oitavas-tr">
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/Valencia.jpg" alt="">
+            <h3>Valencia</h3>
+          </td>
+          <td>
+            <h3>3</h3>
+          </td>
+          <td class="fim">
+            <h3>FIM </h3>
+            <P>Ter.. 10/03</P>
+          </td>
+        </tr>
+        <tr>
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/atalanta.png" alt="">
+            <h3>Atalanta</h3>
+          </td>
+          <td>
+            <h3>4⬅️</h3>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+    <!-- PSG x Borussia -->
+    <section class="oitavas-section">
+      <table>
+        <tr>
+          <th class="totalJogo">
+            Total com jogo de ida: 3 - 2
+          </th>
+        </tr>
+        <tr class="oitavas-tr">
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/psg.png" alt="">
+            <h3>PSG</h3>
+          </td>
+          <td>
+            <h3>2⬅️</h3>
+          </td>
+          <td class="fim">
+            <h3>FIM </h3>
+            <P>Ter.. 10/03</P>
+          </td>
+        </tr>
+        <tr>
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/borrusia.png" alt="">
+            <h3>Borussia</h3>
+          </td>
+          <td>
+            <h3>0</h3>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+    <!-- Liverpool x Atlético Madrid -->
+    <section class="oitavas-section">
+      <table>
+        <tr>
+          <th class="totalJogo">
+            Total com jogo de ida: 2 - 4
+          </th>
+        </tr>
+        <tr class="oitavas-tr">
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/liverpool.png" alt="">
+            <h3>Liverpool</h3>
+          </td>
+          <td>
+            <h3>2</h3>
+          </td>
+          <td class="fim">
+            <h3>FIM </h3>
+            <P>Ter.. 10/03</P>
+          </td>
+        </tr>
+        <tr>
+          <td class="totalJogo-time">
+            <img class="img" src="assets/img/atleticoMadrid.png" alt="">
+            <h3>Atlético Madrid</h3>
+          </td>
+          <td>
+            <h3>3⬅️</h3>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+  </section>
+</body>
+
+</html>

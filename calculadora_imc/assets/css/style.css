@@ -1,0 +1,64 @@
+/* COLOR VARIABLES */
+:root {
+  --blue-color: rgb(72, 129, 252);
+  --hover-color: rgb(40, 106, 250);
+}
+
+/* GLOBAL STYLES */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 50px;
+}
+main, header {
+  max-width: 300px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 50px;
+}
+form fieldset div {
+  margin-bottom: 40px;
+}
+header p, label, span, button {
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+}
+header h1 {
+  color: var(--blue-color);
+}
+
+/* FORM */
+.div-button {
+  text-align: start;
+}
+button {
+  border: 1px solid var(--blue-color);
+  padding: 4px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+button:hover {
+  background-color: var(--hover-color);
+}
+

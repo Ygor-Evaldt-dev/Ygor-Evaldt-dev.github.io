@@ -1,0 +1,259 @@
+/* estilosFormatados */
+* {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #e6e6e6;
+  height: 100%;
+  margin: 0rem auto;
+  padding-bottom: 0.5rem;
+}
+img {
+  display: block;
+}
+a {
+  display: block;
+  color: #fff;
+}
+
+/* cabeçalho */
+.container-cabeçalho {
+  background-color: #001b57;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+  padding-top: 1rem;
+}
+.container-cabeçalho h1 {
+  padding: 0rem 1rem;
+  font-weight: lighter;
+}
+.cabeçalho-navegaçao {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  width: 100%;
+}
+.cabeçalho-navegaçao a {
+  text-transform: uppercase;
+  font-size: small;
+  padding: 0.5rem 1rem;
+  border-bottom: transparent solid 4px;
+  border-radius: 4px;
+}
+.cabeçalho-navegaçao a:hover {
+  border-bottom: #919191 solid 4px;
+}
+@media (max-width: 50rem) {
+  .container-cabeçalho {
+    height: 8rem;
+    padding-bottom: 0.5rem;
+  }
+  .cabeçalho-navegaçao {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .cabeçalho-navegaçao a {
+    padding: 0rem 0.5rem;
+  }
+}
+
+/* Tabela  */
+main {
+  background-color: #fff;
+  max-width: 62rem;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  padding: 1rem;
+  box-shadow: 0rem 0rem 0.8rem #cfcfcf;
+}
+@media (max-width: 26rem) {
+  main {
+    padding: 0rem;
+  }
+}
+table {
+  width: 100%;
+  padding: 1rem 0rem;
+  border-collapse: collapse;
+}
+table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+table tr:nth-child(odd) {
+  background-color: #fdfdfd;
+}
+table tr:hover {
+  background-color: #93a3fc1e;
+}
+table .clube {
+  width: 40%;
+  text-align: left;
+  padding: 1rem 0rem;
+}
+table th {
+  color: #919191;
+}
+.tabelaA {
+  margin-bottom: 2rem;
+}
+.tabelaB {
+  margin-bottom: 2rem;
+}
+.responsivo-tabela {
+  overflow-x: auto;
+}
+
+/* linhasTabela */
+table td {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  border-left: transparent solid 3px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.time h3 {
+  font-size: medium;
+}
+.time img {
+  max-height: 1.8rem;
+}
+/* ultimasCincoPartidas */
+.partidas {
+  width: 16%;
+}
+.ultimas-cinco {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ultimas-cinco-vitoria {
+  width: 1rem;
+}
+.verde {
+  display: grid;
+  place-content: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: green;
+  border-radius: 50%;
+}
+.vermelho {
+  display: grid;
+  place-content: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ff0505;
+  color: #fff;
+  border-radius: 50%;
+}
+.ultimas-cinco-empate {
+  width: 1rem;
+}
+.cinza {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #919191;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+}
+#detalheAzul {
+  border-left: #1760ff solid 3px;
+  padding-left: 1.5rem;
+  margin: 0.4rem 0rem;
+}
+#detalheLaranja {
+  border-left: #ffa217 solid 3px;
+  padding-left: 1.5rem;
+  margin: 0.4rem 0rem;
+}
+
+/* tabelaGols */
+.jogador {
+  text-align: left;
+  padding: 1rem 0rem;
+  padding-left: 1.5rem;
+}
+.gols {
+  text-align: right;
+  padding: 1rem 1rem;
+}
+.img {
+  max-width: 1.8rem;
+}
+.jogador {
+  display: grid;
+  grid-template-columns: 1.8rem 1fr;
+}
+.jogador-time {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  grid-column: 2/-1;
+}
+.h3 {
+  border-top: #faf1f1 solid 1px;
+  padding-top: 0.5rem;
+  /* padding-left: 1.5rem; */
+}
+
+/* Oitavas de final */
+.container-oitavas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 64rem;
+  margin: 0rem auto;
+  background-color: #fff;
+  box-shadow: 0rem 0rem 0.8rem #cfcfcf;
+}
+.oitavas-h3 {
+  padding: 1rem 0rem;
+  max-width: 64rem;
+  margin: 0rem auto;
+}
+.oitavas-h3 h3 {
+  padding-left: 2.5rem;
+}
+.totalJogo {
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+.totalJogo-time {
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+}
+.oitavas-section {
+  padding: 1.5rem;
+  border: #eeeeee solid 1px;
+}
+.fim {
+  font-size: small;
+}
+
+@media (max-width: 55rem) {
+  .container-oitavas {
+    grid-template-columns: 1fr;
+  }
+  .totalJogo {
+    padding: 1rem 0rem;
+    width: 100%;
+  }
+  .oitavas-section {
+    padding: 0.5rem 0rem;
+  }
+  .oitavas-h3 h3 {
+    padding-left: 0rem;
+  }
+}

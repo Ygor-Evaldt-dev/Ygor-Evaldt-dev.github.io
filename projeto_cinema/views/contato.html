@@ -1,0 +1,31 @@
+<div class="text-center">
+  <span><i class="bi bi-film display-4"></i></span>
+  <h2 class="mt-4 mb-5">
+    Contato
+  </h2>
+  <div class="div-contato bg-white rounded pb-4">
+    <form class=" p-4 pb-2 text-start" id="formulario" action="#">
+
+      <div class="mb-4">
+        <label class="form-label" for="nome">Nome <span class="text-danger">*</span></label>
+        <input cols="5" type="text" id="nome" name="nome" class="form-control">
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label" for="email">E-mail <span class="text-danger">*</span></label>
+        <input type="email" id="email" name="email" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label" for="mensagem">Mensagem</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="4"></textarea>
+      </div>
+    </form>
+    <div class="text-end">
+      <button class="btn btn-danger mx-5 mt-2 mb-2" onclick="enviaFormulario()">Enviar</button>
+    </div>
+    <div>
+      <span id="respostaFormulario"></span>
+    </div>
+  </div>
+</div>

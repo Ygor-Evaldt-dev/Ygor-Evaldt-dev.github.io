@@ -1,0 +1,81 @@
+/* COLOR VARIABLES */
+:root {
+  --background-color: #FFEDD5;
+  --acento-color: #2D2C2A;
+  --text-color: #00000099;;
+  --color-acentos: #FED7AA;
+  --color-coffe: #995000;
+}
+
+/* GLOBAL STYLES */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
+}
+body {
+  background-color: var(--background-color);
+  font-family: 'Roboto Serif', serif;
+}
+ul {
+  list-style: none;
+}
+header, section {
+  max-width: 300px;
+  margin: 0px auto;
+}
+
+/* HEADER */
+header {
+  padding: 32px 0px;
+  text-align: center;
+}
+header h1 {
+  font-size: 28px;
+  line-height: 32.79px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--acento-color);
+}
+header h1 span {
+  color: var(--color-coffe); 
+}
+header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+/* BRUNCH and DRINKS */
+section h2 {
+  background-color: var(--color-acentos);
+  color: var(--acento-color);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+}
+li {
+  display: flex;
+  margin-bottom: 16px;
+}
+li div h3{
+  color: var(--acento-color);
+  text-transform: uppercase;
+}
+.price {
+  font-family: 'Roboto Serif', serif;
+}
+.description {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  line-height: 21px;
+  margin-top: 8px;
+
+}
+
+
+
+
+
+
