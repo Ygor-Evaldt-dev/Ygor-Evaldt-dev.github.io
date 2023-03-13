@@ -1,0 +1,19 @@
+.container-options {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.container-options,
+.container-buttons {
+    gap: 10px;
+}
+
+.container-formats {
+    gap: 20px;
+}
+
+.container-formats-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
