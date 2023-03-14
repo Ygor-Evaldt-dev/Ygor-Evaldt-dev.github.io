@@ -27,16 +27,16 @@
                 <textarea class="form-control" name="json-area" id="json-area" rows="20" placeholder="Adicione seu JSON válido aqui"></textarea>
             </div>
         </section>
-        <section class="container-options pt-4 d-flex justify-content-between">
-            <section class="container-formats d-flex">
-                <div>
+        <section class="container-options d-md-flex justify-content-between">
+            <section class="container-formats d-md-flex ">
+                <div class="pt-3">
                     <label class="container-formats-label" for="type-conversion-origin">Formato de origem</label>
                     <select class="form-select" name="type-conversion-origin" id="type-conversion-origin">
                         <option value="stringfy">stringfy</option>
                         <option value="parse">parse</option>
                     </select>
                 </div>
-                <div>
+                <div class="pt-3">
                     <label class="container-formats-label" for="type-conversion-destin">Formato de destino</label>
                     <select class="form-select" name="type-conversion-destin" id="type-conversion-destin">
                         <option value="parse">parse</option>
@@ -44,7 +44,7 @@
                     </select>
                 </div>
             </section>
-            <section class="container-buttons d-flex justify-content-end">
+            <section class="container-buttons d-md-flex text-end pt-3">
                 <button type="button" onclick="cleanJsonArea()" class="btn btn-secondary">Limpar</button>
                 <button type="button" onclick="convertValidJson()" class="btn btn-primary">Converter</button>
             </section>
