@@ -1,7 +1,11 @@
 # Ygor-Evaldt-dev.github.io
 
-## Meus primeiros projetos pessoais: 
+## Projetos pessoais em desenvolvimento
+- [Livraria](https://github.com/Ygor-Evaldt-dev/Bookstore/tree/master)
 
+<br>
+
+## Meus primeiros projetos pessoais: 
 - [Calculadora](https://ygor-evaldt-dev.github.io/calculadora/)
 - [Calculadora de bases númericas](https://ygor-evaldt-dev.github.io/calculadora_bases_numericas/)
 - [Calculadora de IMC](https://ygor-evaldt-dev.github.io/calculadora_imc/)
